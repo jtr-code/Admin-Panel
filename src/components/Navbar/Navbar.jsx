@@ -36,9 +36,6 @@ const Navbar = () => {
             <div className='counter'>2</div>
           </div>
           <div className='item'>
-            <NotificationsNoneOutlined className='icon' />
-          </div>
-          <div className='item'>
             <ListOutlined className='icon' />
           </div>
           <div className='item'>
