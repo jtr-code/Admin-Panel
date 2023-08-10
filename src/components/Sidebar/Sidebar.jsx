@@ -101,9 +101,13 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
+
       <div className='bottom'>
-        <div className='theme-option'></div>
-        <div className='theme-option'></div>
+        <p className='title'>THEMES</p>
+        <div className='theme-wrapper'>
+          <div className='theme-option'></div>
+          <div className='theme-option'></div>
+        </div>
       </div>
     </div>
   );

@@ -19,7 +19,7 @@
   }
   hr {
     height: 0;
-    border: 0.1rem solid hsl(0, 1%, 83%);
+    border: 0.06rem solid hsl(0, 1%, 83%);
   }
 
   // center section
@@ -67,10 +67,20 @@
   //   bottom section
 
   .bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
+    margin-block: 1.5rem;
+    padding-inline-start: 1.5rem;
+    .title {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      color: hsl(0, 1%, 63%);
+      margin-block: 0.5rem;
+      font-weight: 700;
+    }
+    .theme-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
 
     .theme-option {
       width: 2rem;
