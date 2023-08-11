@@ -2,5 +2,12 @@
   display: flex;
   .home-container {
     flex: 6;
+
+    .widgets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 1rem;
+    }
   }
 }
