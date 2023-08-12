@@ -1,0 +1,73 @@
+.featured {
+  flex: 2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1rem;
+  padding: 1rem;
+  .top {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin-block-end: 1rem;
+    .title {
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: hsl(0, 0%, 40%);
+    }
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    .featured-chart {
+      width: 200px;
+      height: 200px;
+    }
+    .title {
+      font-size: 1.3rem;
+      color: hsl(0, 0%, 40%);
+      font-weight: 600;
+    }
+    .amount {
+      font-size: 1.8rem;
+    }
+    .desc {
+      color: hsl(0, 0%, 60%);
+      text-align: center;
+      font-weight: 300;
+    }
+    .summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+        .item-title {
+          font-size: 18px;
+          font-weight: 500;
+          color: gray;
+        }
+        .item-result {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &.positive {
+            color: green;
+          }
+          &.negative {
+            color: hsl(0, 100%, 40%);
+          }
+        }
+      }
+    }
+  }
+}
